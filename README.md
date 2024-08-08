@@ -16,7 +16,7 @@ This project aims to detect defects in Severstal steel images using a deep learn
   - **CAM_IN.py**: Model evaluation script that generates performance metrics and visualizations.
 
 - **models/**: Contains saved models.
-  - **model.keras**: Trained model in Keras format.
+  - **model.keras**: Trained model in Keras format.(!Updating in Progress!)
 
 - **results/**: Contains results from model training and evaluation.
   - **imbalanced_training.png**: Graph showing training and validation accuracy and loss curves of imbalanced dataset.
