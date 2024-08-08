@@ -1,4 +1,4 @@
-# Severstal Steel Defect Detection
+# Steel Defect Detection
 
 ## Overview
 This project aims to detect defects in Severstal steel images using a deep learning model. The dataset consists of images with various types of defects, and the project includes data preprocessing, model training, evaluation, and visualization of results.
