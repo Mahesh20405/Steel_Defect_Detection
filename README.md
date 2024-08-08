@@ -4,7 +4,7 @@
 This project aims to detect defects in Severstal steel images using a deep learning model. The dataset consists of images with various types of defects, and the project includes data preprocessing, model training, evaluation, and visualization of results.
 
 ## Project Structure
-- **data/**: Contains image datasets for training, validation, and testing.
+- **Data/**: Contains image datasets for training, validation, and testing.
   - **train_images.csv/**: Images used for training the model.
   - **test_images.csv/**: Images used for testing the model.
 
