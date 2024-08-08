@@ -19,11 +19,11 @@ This project aims to detect defects in Severstal steel images using a deep learn
   - **model.keras**: Trained model in Keras format.
 
 - **results/**: Contains results from model training and evaluation.
-  - **training_curves.png**: Graph showing training and validation accuracy and loss curves.
+  - **imbalanced_training.png**: Graph showing training and validation accuracy and loss curves of imbalanced dataset.
+  - **balanced_training.png**: Graph showing training and validation accuracy and loss curves of balanced dataset.
   - **predicted_output.png**: Example image with predicted defect annotations.
   - **imbalanced_dataset.png**: Graph showing the given raw and imbalanced distribution of the dataset.
   - **balanced_dataset_graph.png**: Graph showing the balanced distribution of the dataset.
-  - **model_summary.txt**: Summary of the trained model.
 
 ## Model Architecture
 The model is based on the ResNet50 architecture, a popular deep learning model known for its performance in image classification tasks. It includes:
@@ -33,28 +33,34 @@ The model is based on the ResNet50 architecture, a popular deep learning model k
 
 ## Results
 ### Accuracy and Loss Curves
-![Training and Validation Curves](results/training_curves.png)
+- **Imbalanced data training**
+![Training and Validation Curves(Imbalanced)](results/imbalanced_training.png)
 
-This graph illustrates the training and validation accuracy and loss over the epochs.
+This graph illustrates the training and validation accuracy and loss over the epochs of imbalanced dataset.
+
+- **balanced data training**
+![Training and Validation Curves(balanced)](results/balanced_training.png)
+
+This graph illustrates the training and validation accuracy and loss over the epochs of imbalanced dataset.
 
 ### Predicted Output
 ![Predicted Output Image](results/predicted_output.png)
 
 An example of an image with defect annotations predicted by the model.
 
+### Dataset Imbalanced Graph
+![Imbalanced Dataset Graph](results/imbalanced_dataset_graph.png)
+
+This graph shows the balanced distribution of the imbalanced dataset classes.
+
 ### Dataset Balanced Graph
 ![Balanced Dataset Graph](results/balanced_dataset_graph.png)
 
-This graph shows the balanced distribution of the dataset classes.
+This graph shows the balanced distribution of the balanced dataset classes.
 
-## Installation
-Ensure you have the following Python packages installed:
-- TensorFlow
-- NumPy
-- pandas
-- matplotlib
-- scikit-learn
+### Comparison After Data Management Of Imbalanced Dataset
 
-You can install these packages using `pip`:
-```bash
-pip install tensorflow numpy pandas matplotlib scikit-learn
+![Comparison Dataset Graph](results/Comp.png)
+
+This graph shows the comparison of imbalanced and balanced distribution of the balanced dataset classes.
+
