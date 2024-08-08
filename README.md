@@ -39,22 +39,22 @@ The model is based on the ResNet50 architecture, a popular deep learning model k
 This graph illustrates the training and validation accuracy and loss over the epochs of imbalanced dataset.
 
 - **balanced data training**
-![Training and Validation Curves(balanced)](results/balanced_training.png)
+![Training and Validation Curves(balanced)](results/balanced_training.jpg)
 
 This graph illustrates the training and validation accuracy and loss over the epochs of imbalanced dataset.
 
 ### Predicted Output
-![Predicted Output Image](results/predicted_output.png)
+![Predicted Output Image](results/predicted_output.jpg)
 
 An example of an image with defect annotations predicted by the model.
 
 ### Dataset Imbalanced Graph
-![Imbalanced Dataset Graph](results/imbalanced_dataset_graph.png)
+![Imbalanced Dataset Graph](results/imbalanced_dataset.png)
 
 This graph shows the balanced distribution of the imbalanced dataset classes.
 
 ### Dataset Balanced Graph
-![Balanced Dataset Graph](results/balanced_dataset_graph.png)
+![Balanced Dataset Graph](results/balanced_dataset.png)
 
 This graph shows the balanced distribution of the balanced dataset classes.
 
