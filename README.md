@@ -34,12 +34,12 @@ The model is based on the ResNet50 architecture, a popular deep learning model k
 ## Results
 ### Accuracy and Loss Curves
 - **Imbalanced data training**
-![Training and Validation Curves(Imbalanced)](results/imbalanced_training.png)
+![Training and Validation Curves(Imbalanced)](results/imbalanced_training.jpg)
 
 This graph illustrates the training and validation accuracy and loss over the epochs of imbalanced dataset.
 
 - **balanced data training**
-![Training and Validation Curves(balanced)](results/balanced_training.jpg)
+![Training and Validation Curves(balanced)](results/balanced_training.png)
 
 This graph illustrates the training and validation accuracy and loss over the epochs of imbalanced dataset.
 
