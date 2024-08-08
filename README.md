@@ -5,13 +5,8 @@ This project aims to detect defects in Severstal steel images using a deep learn
 
 ## Project Structure
 - **data/**: Contains image datasets for training, validation, and testing.
-  - **train_images/**: Images used for training the model.
-  - **validation_images/**: Images used for validating the model.
-  - **test_images/**: Images used for testing the model.
-
-- **annotations/**: XML annotations for training and validation.
-  - **train/**: XML files for training images.
-  - **validation/**: XML files for validation images.
+  - **train_images.csv/**: Images used for training the model.
+  - **test_images.csv/**: Images used for testing the model.
 
 - **scripts/**: Python scripts for preprocessing, training, and evaluation.
   - **PP.py**: Data preprocessing script that prepares images and annotations.
@@ -26,6 +21,7 @@ This project aims to detect defects in Severstal steel images using a deep learn
 - **results/**: Contains results from model training and evaluation.
   - **training_curves.png**: Graph showing training and validation accuracy and loss curves.
   - **predicted_output.png**: Example image with predicted defect annotations.
+  - **imbalanced_dataset.png**: Graph showing the given raw and imbalanced distribution of the dataset.
   - **balanced_dataset_graph.png**: Graph showing the balanced distribution of the dataset.
   - **model_summary.txt**: Summary of the trained model.
 
